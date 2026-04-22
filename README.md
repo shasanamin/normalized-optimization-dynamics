@@ -8,8 +8,6 @@ Code for the paper **When Does Scale-Invariant Optimization Become Unstable? An 
 - `scripts/`: Canonical entry points for reproducing all paper experiments.
 - `results/`: Pre-computed reference outputs (summaries and figures).
 
-All experiments use 5 seeds (42--46) with mean +/- std error bars.
-
 ## Install
 
 ```bash
