@@ -1,0 +1,13 @@
+{
+  "a": 0.9,
+  "trace": 1.33,
+  "determinant": 1.0899999999999999,
+  "discriminant": -2.5910999999999995,
+  "eigenvalue_modulus": 1.0440306508910548,
+  "q_star": 0.9746794344808963,
+  "Phi_star": 2.165954298846436,
+  "gPhi_star": 0.4843221048378525,
+  "switching_surface": 0.48432210483785254,
+  "switching_surface_error": 5.551115123125783e-17,
+  "jacobian_fd_error": 1.6949499581642158e-09
+}

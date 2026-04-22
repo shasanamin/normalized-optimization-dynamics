@@ -1,0 +1,14 @@
+{
+  "Constant": {
+    "best_acc_mean": 0.31448,
+    "best_acc_std": 0.008722018115092387
+  },
+  "Step": {
+    "best_acc_mean": 0.5290800000000001,
+    "best_acc_std": 0.004498177408684552
+  },
+  "Cosine": {
+    "best_acc_mean": 0.5098800000000001,
+    "best_acc_std": 0.006477777396607566
+  }
+}

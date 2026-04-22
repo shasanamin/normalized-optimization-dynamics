@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments
+.venv/
+venv/
+env/
+.env
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*~
+
+# Author-private configs / paths (anonymous release scrubs these)
+configs/
+local_paths.yaml
+*.local.json
+
+# Large generated artifacts (regenerable from scripts)
+results/**/*_histories.json
+results/**/*.pkl
+results/**/raw/
+results/**/checkpoints/
+
+# Datasets and caches (always on scratch, never in repo)
+data/
+datasets/
+*.tar.gz
+*.zip
+
+# Notebooks
+.ipynb_checkpoints/

@@ -1,0 +1,20 @@
+{
+  "Constant": {
+    "best_acc_mean": 0.8389999999999999,
+    "best_acc_std": 0.004791659420284371,
+    "expansion_second_half_mean": 0.7093489583333333,
+    "expansion_second_half_std": 0.01534170259592027
+  },
+  "Step": {
+    "best_acc_mean": 0.87464,
+    "best_acc_std": 0.002473539973398452,
+    "expansion_second_half_mean": 1.0,
+    "expansion_second_half_std": 0.0
+  },
+  "Cosine": {
+    "best_acc_mean": 0.87652,
+    "best_acc_std": 0.0021894291493446275,
+    "expansion_second_half_mean": 0.02973958333333333,
+    "expansion_second_half_std": 0.0028319639000612268
+  }
+}

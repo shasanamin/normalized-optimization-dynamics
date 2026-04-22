@@ -1,0 +1,62 @@
+{
+  "SGD": {
+    "Constant": {
+      "best_acc_mean": 0.31435999274253845,
+      "best_acc_std": 0.00973439175093511,
+      "ratio_residual_median_mean": 4.506111145019531e-06,
+      "orth_residual_median_mean": 1.5348964097938733e-05
+    },
+    "Step": {
+      "best_acc_mean": 0.5225999832153321,
+      "best_acc_std": 0.0034409253009536943,
+      "ratio_residual_median_mean": 3.266334533691406e-06,
+      "orth_residual_median_mean": 1.791552294889698e-05
+    },
+    "Cosine": {
+      "best_acc_mean": 0.5115599751472473,
+      "best_acc_std": 0.0033380161611657614,
+      "ratio_residual_median_mean": 3.516674041748047e-06,
+      "orth_residual_median_mean": 1.6271940876322332e-05
+    }
+  },
+  "Adam (coupled WD)": {
+    "Constant": {
+      "best_acc_mean": 0.3045599937438965,
+      "best_acc_std": 0.006427935960457429,
+      "ratio_residual_median_mean": 0.04696568250656128,
+      "orth_residual_median_mean": 9.861610760708572e-06
+    },
+    "Step": {
+      "best_acc_mean": 0.627239990234375,
+      "best_acc_std": 0.012004271852274434,
+      "ratio_residual_median_mean": 0.006855052709579468,
+      "orth_residual_median_mean": 9.034152935782912e-06
+    },
+    "Cosine": {
+      "best_acc_mean": 0.5862399816513062,
+      "best_acc_std": 0.008292057569072779,
+      "ratio_residual_median_mean": 0.024753892421722413,
+      "orth_residual_median_mean": 9.18387786441599e-06
+    }
+  },
+  "AdamW (decoupled WD)": {
+    "Constant": {
+      "best_acc_mean": 0.2595199942588806,
+      "best_acc_std": 0.0032239100730905713,
+      "ratio_residual_median_mean": 0.0993500828742981,
+      "orth_residual_median_mean": 1.0535834553593304e-05
+    },
+    "Step": {
+      "best_acc_mean": 0.3455599844455719,
+      "best_acc_std": 0.005709504632394639,
+      "ratio_residual_median_mean": 0.1007649302482605,
+      "orth_residual_median_mean": 1.0685747383831767e-05
+    },
+    "Cosine": {
+      "best_acc_mean": 0.3387199938297272,
+      "best_acc_std": 0.005233116758835187,
+      "ratio_residual_median_mean": 0.10064619779586792,
+      "orth_residual_median_mean": 1.0586508597043576e-05
+    }
+  }
+}
