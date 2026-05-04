@@ -23,6 +23,7 @@ Figures regenerated from saved histories/summaries:
   - fig_layerwise.png           (from sgdm + adam histories)
   - fig_minibatch.png           (from minibatch/minibatch_histories.json)
   - fig_extended_criticality_controls.png (from mnist_criticality/)
+  - fig_transformer_lm.png      (from transformer_lm/)
 
 Usage:
     # Generate all figures (from results/ data)
@@ -37,6 +38,7 @@ Usage:
 import argparse
 import json
 import os
+import subprocess
 import sys
 import tempfile
 
@@ -709,6 +711,21 @@ def main():
         gen_beyond_sgd_figures(args.results_dir, args.out_dir)
     except Exception as e:
         print(f"  Error generating beyond_sgd figures: {e}")
+    try:
+        script = os.path.join(os.path.dirname(__file__), 'replot_transformer_lm.py')
+        subprocess.run(
+            [
+                sys.executable,
+                script,
+                '--results_dir', args.results_dir,
+                '--out_path', os.path.join(args.out_dir, 'fig_transformer_lm.png'),
+                '--summary_path',
+                os.path.join(args.results_dir, 'transformer_lm', 'summary.json'),
+            ],
+            check=True,
+        )
+    except Exception as e:
+        print(f"  Error generating transformer_lm figure: {e}")
 
     # Anisotropic
     print("\n--- Anisotropic figure ---")
